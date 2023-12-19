@@ -1,4 +1,4 @@
-FROM golang:1.21.5-buster as builder
+FROM golang:1.21.5-bullseye as builder
 # Stage 1: Build the Go application
 WORKDIR /app
 COPY go.mod ./
